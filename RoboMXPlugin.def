@@ -1,0 +1,7 @@
+; RoboMXPlugin.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Metis.r2x"
+
+EXPORTS
+    ; Explicit exports can go here
+	RegisterExtensionEx @ 1
